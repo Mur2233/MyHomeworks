@@ -77,6 +77,3 @@ filter_sorted: Dict[int, Dict[str, str]] = dict(
            key=lambda n: 3000 if n[1]['year'] == 'TBA' else n[1]['year']))
 pprint(filter_sorted, sort_dicts=False)
 
-
-
-
