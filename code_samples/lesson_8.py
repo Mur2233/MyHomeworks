@@ -1,23 +1,6 @@
 from marvel import full_dict
 from pprint import pprint
 
-# ==============================================
-
-# for item in full_dict:
-    # phase_in_numbers = input('Введите цифрами фазу: ')
-    # if phase_in_numbers.isdigit():
-    #     phase_count = int(phase_in_numbers)
-    #     if phase_count > item:
-    #         raise ValueError('Такой фазы не существует\n'
-    #                          f'Будет выведено {item} фаз')
-    #         phase_count = item
-    #     else:
-    #         raise TypeError('Ожидаем получение числа')
-    #         pprint(item)
-
-
-# ====================================================
-
 stage = {
     1: 'Первая фаза',
     2: 'Вторая фаза',
