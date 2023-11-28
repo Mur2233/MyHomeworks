@@ -61,10 +61,3 @@ while cities_set:
     print(f'Второй игрок(бот): {computer_city}')
 else:
     print('Игра окончена. Вы выиграли!')
-
-
-
-
-
-
-
