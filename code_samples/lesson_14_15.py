@@ -91,12 +91,3 @@ def main():
         print('Игра окончена. Вы выиграли!')
 
 main()
-
-
-# from marvel import small_dict, full_dict
-#
-# small_dict_marvel: Dict[str, Optional[int]] = small_dict
-# small_dict_marvel2: Dict[str, int | None] = small_dict
-# small_dict_marvel3: Dict[str, Union[int, None]] = small_dict
-#
-# full_dict_marvel: Dict[int, Dict[str, Any]] = full_dict
